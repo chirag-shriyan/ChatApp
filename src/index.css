@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -moz-and-webkit-prefixes: none;
+}
+
+.styled-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.styled-scrollbar-textarea::-webkit-scrollbar {
+  width: 4px;
+}
+
+.styled-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #2d404b;
+}
+
+.styled-scrollbar-textarea::-webkit-scrollbar-thumb {
+  background-color: #7c8b95;
+}
+.styled-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.MuiMenu-paper {
+  background-color: #202124 !important;
+  color: white !important;
+}
+
+.MuiInputBase-root::before {
+  border-bottom: none !important ;
+}
+
+#inputPromptForPassword-label {
+  color: white;
+}
+#inputPromptForPassword {
+  color: white;
+}
